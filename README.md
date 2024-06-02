@@ -1,4 +1,4 @@
-# Music-Generation-using-LSTM
+# Melody Generation with LSTM
 
 This repository contains code for training and generating melodies using an LSTM neural network. The project involves preprocessing musical data, training an LSTM model, and generating new melodies based on the trained model.
 
@@ -12,6 +12,11 @@ Includes functions and constants for preprocessing the dataset used for training
 
 ### 3. train.py
 Contains the script for training the LSTM model on the preprocessed dataset.
+
+## Dataset
+
+The dataset used in this project is taken from the following source:
+[European Folk Music (Essen Folksong Collection)](https://kern.humdrum.org/cgi-bin/browse?l=essen/europa/deutschl)
 
 ## Getting Started
 
@@ -30,7 +35,7 @@ Contains the script for training the LSTM model on the preprocessed dataset.
     ```
 2. Install the required packages:
     ```sh
-    pip install tensorflow music21 numpy matplotlib
+    pip install -r requirements.txt
     ```
 
 ### Usage
