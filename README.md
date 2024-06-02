@@ -61,6 +61,10 @@ The dataset used in this project is taken from the following source:
     melody = mg.generate_melody(seed, num_steps=500, max_sequence_length=64, temperature=1.0)
     ```
 
+## Acknowledgements
+
+A huge thanks to Valerio Velardo - The Sound of AI for helping me in this project.
+
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 
